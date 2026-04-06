@@ -7,9 +7,25 @@ description: "Genera y publica 'Tu Periódico IA' de Nerio González D' usando e
 
 ## Quién es Nerio (el autor)
 
-Nerio González D' es un emprendedor venezolano viviendo en Ekaterinburg, Rusia. Construye sistemas de IA, agentes personalizados (GPTs), y sistemas de predicción deportiva bajo la marca NGD. Tiene metodologías propias (NGD-8™ y TAE). Habla español nativo y ruso conversacional. Su pareja se llama Zarina. Estudia en UrFU su último año. Usa Claude, ChatGPT, Perplexity, Telegram bots, y herramientas no-code.
+Nerio González D' es un emprendedor latinoamericano. Construye sistemas de IA, agentes personalizados (GPTs), y sistemas de predicción deportiva bajo la marca NGD. Tiene metodologías propias (NGD-8™ y TAE). Habla español nativo. Estudia su último año de carrera universitaria. Usa Claude, ChatGPT, Perplexity, Telegram bots, y herramientas no-code.
 
 Su voz es directa, sin rodeos, con personalidad latina. No es un periodista corporativo — es un emprendedor que habla desde la trinchera.
+
+### Reglas de privacidad (INNEGOCIABLES)
+
+NUNCA mencionar en el periódico:
+- Ciudades donde vive o ha vivido (ni Ekaterinburg, ni Rusia, ni Venezuela, ni Panamá, ni ninguna)
+- Nombres de personas cercanas (ni pareja, ni amigos, ni familiares, ni nadie por nombre)
+- Universidad específica
+- Datos personales que identifiquen su ubicación
+
+Las historias personales deben ser genéricas en ubicación:
+- MAL: "Ayer en Ekaterinburg vi un robot en una tienda"
+- BIEN: "Ayer vi un robot en una tienda"
+- MAL: "Se lo mostré a Zarina y se rio"
+- BIEN: "Se lo mostré a mi novia y se rio"
+- MAL: "Un amigo de la universidad, Carlos, me preguntó..."
+- BIEN: "Un amigo me preguntó..."
 
 ## Qué es Tu Periódico IA
 
@@ -35,7 +51,7 @@ NOTA: Lo ÚNICO que Nerio hace manualmente es copiar el teaser de Notion y pegar
 Claude genera la historia personal SIN input de Nerio. Para esto, Claude debe:
 
 1. ROTAR entre los tipos de historia (nunca repetir el mismo tipo 2 días seguidos):
-   - "Me pasó algo" (basado en contexto de Nerio: emprendedor, IA, Rusia, Zarina, universidad)
+   - "Me pasó algo" (basado en contexto de Nerio: emprendedor, trabaja con IA, automatización, bots)
    - "Vi algo" (basado en algo que alguien en la posición de Nerio vería: Twitter, redes, noticias)
    - "Alguien me preguntó" (preguntas que emprendedores reales hacen sobre IA)
    - "Cometí un error" (errores comunes al trabajar con IA/automatización)
@@ -107,6 +123,18 @@ Como hablarle a un amigo. Sin formalidades.
 
 Telegram Markdown: *negrita*, _cursiva_, `código`, [texto](url)
 
+ENCABEZADO OBLIGATORIO (nunca cambiar, nunca omitir, nunca modificar):
+
+═══════════════════════════
+⚡ *TU PERIÓDICO IA* ⚡
+_La IA que importa. Sin humo._
+═══════════════════════════
+📅 [Día] [día] de [mes], [año]
+✍️ Nerio González D' — _N° [AÑO].[EDICIÓN]_
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Este encabezado se usa IDÉNTICO en TODAS las ediciones. Es la marca visual del periódico. NO se modifica nunca.
+
 REGLAS DE FORMATO:
 - Emojis SOLO en: encabezado, iconos de sección, y separadores
 - NUNCA emojis dentro de los párrafos de la historia
@@ -118,9 +146,13 @@ REGLAS DE FORMATO:
 
 PLANTILLA:
 
-🗞 *Tu Periódico IA* — _N° [AÑO].[EDICIÓN]_
-📅 _[Día] [día] de [mes], [año]_
-✍️ _por_ [Nerio González D'](https://www.instagram.com/neriogonzalezd/)
+═══════════════════════════
+⚡ *TU PERIÓDICO IA* ⚡
+_La IA que importa. Sin humo._
+═══════════════════════════
+📅 [Día] [día] de [mes], [año]
+✍️ Nerio González D' — _N° [AÑO].[EDICIÓN]_
+━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━
 
@@ -178,8 +210,13 @@ NO revelar empresa, dato, ni respuesta. El lector TIENE que ir a Telegram.
 
 PLANTILLA:
 
-🗞 *Tu Periódico IA* — _N° [AÑO].[EDICIÓN]_
-📅 _[Día] [día] de [mes], [año]_
+═══════════════════════════
+⚡ *TU PERIÓDICO IA* ⚡
+_La IA que importa. Sin humo._
+═══════════════════════════
+📅 [Día] [día] de [mes], [año]
+✍️ Nerio González D' — _N° [AÑO].[EDICIÓN]_
+━━━━━━━━━━━━━━━━━━━━━━━
 
 [Gancho de la historia — 3-4 líneas SIN resolver]
 
@@ -277,17 +314,17 @@ Formato: N° [AÑO].[EDICIÓN 2 dígitos] (ej: N° 1.05)
 ## Ejemplos de historias personales
 
 TIPO "Me pasó algo":
-"Ayer le pedí a ChatGPT que me tradujera un documento al ruso.
+"Ayer le pedí a ChatGPT que me tradujera un documento.
 Lo que me devolvió sonaba como un robot con resaca.
-Se lo mostré a Zarina. Se rio tanto que casi se cae de la silla."
+Se lo mostré a mi novia y casi se cae de la silla de la risa."
 
 TIPO "Vi algo":
 "Abrí Twitter esta mañana y lo primero que vi fue un video
-de un robot sirviendo café en Tokio.
+de un robot sirviendo café en una cafetería.
 Se movía con más gracia que la mitad de los camareros que conozco."
 
 TIPO "Alguien me preguntó":
-"Un amigo me escribió ayer: 'Nerio, ¿vale la pena aprender IA o es moda?'
+"Un amigo me escribió ayer: 'Bro, ¿vale la pena aprender IA o es moda?'
 Le respondí con una pregunta: '¿Valía la pena aprender internet en 1998?'"
 
 TIPO "Cometí un error":
@@ -312,3 +349,6 @@ Yo pensé: si supiera que hay una IA que puede hacer eso y mucho más..."
 - Nunca emojis dentro del cuerpo de la historia.
 - Nunca dar la noticia completa en el teaser de WhatsApp.
 - Nunca usar [texto](url) en WhatsApp (no funciona).
+- Nunca mencionar ciudades, países o ubicación de Nerio.
+- Nunca mencionar nombres de personas cercanas a Nerio (pareja, amigos, familiares).
+- Nunca mencionar el nombre de la universidad de Nerio.
