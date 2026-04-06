@@ -1,34 +1,85 @@
-🗞 *Tu Periódico IA* — _N° 1.01_
-📅 _Domingo 6 de abril, 2026_
+═══════════════════════════════════════════
+VERSIÓN ACTUAL (lo que generó Claude Code)
+═══════════════════════════════════════════
+
+Problemas detectados:
+
+1. ❌ No tiene el encabezado nuevo (usa el viejo)
+2. ❌ "Domingo 6 de abril" — 6 de abril 2026 es LUNES, no domingo
+3. ❌ "Y no es quien tú crees" — sí es quien crees (Musk), esto puede decepcionar
+4. ❌ "un prompt que vale $5,000" — suena a clickbait exagerado
+5. ❌ Demasiadas líneas entre el gancho y el CTA — se alarga innecesariamente
+
+
+═══════════════════════════════════════════
+VERSIÓN MEJORADA
+═══════════════════════════════════════════
+
+
+═══════════════════════════
+⚡ *TU PERIÓDICO IA* ⚡
+_La IA que importa. Sin humo._
+═══════════════════════════
+📅 Lunes 6 de abril, 2026
+✍️ Nerio González D' — _N° 1.01_
+━━━━━━━━━━━━━━━━━━━━━━━
 
 Anoche vi un número que me hizo sentarme en la cama.
 
-$250,000,000,000.
+*$250,000,000,000.*
 
-Un solo hombre acaba de comprar una de las empresas de IA más agresivas del mundo.
+Un solo hombre acaba de pagar eso por una empresa de inteligencia artificial.
 
-Y no es quien tú crees.
+Eso es más que la economía de *140 países.*
 
-Lo que viene después de esta compra va a cambiar quién domina la carrera de la inteligencia artificial.
+¿Quién fue? ¿Qué compró? ¿Y qué significa para tu negocio?
 
-¿Quién fue? ¿Qué empresa compró? ¿Y por qué debería importarte?
-
-👆 La respuesta + un prompt que vale $5,000 + más noticias están en la edición completa.
+👆 La edición completa tiene la respuesta.
 
 ━━━━━━━━━━━━━━━━━━
 
-📲 *La edición completa sale PRIMERO en Telegram.*
-WhatsApp solo recibe el resumen.
+📲 *Telegram recibe todo. WhatsApp solo el resumen.*
 
-👉 *Únete al canal:*
-https://t.me/TUPERIODICOIA
+👉 https://t.me/TUPERIODICOIA
 
-✅ Gratis
-✅ Sin spam
-✅ Un prompt útil cada día
+✅ Gratis · ✅ Sin spam · ✅ Un prompt útil cada día
 
 ━━━━━━━━━━━━━━━━━━
 
-📸 Instagram: https://www.instagram.com/neriogonzalezd/
-
+📸 https://www.instagram.com/neriogonzalezd/
 🚀 _"Tu vida y tu negocio, al siguiente nivel."_
+
+
+═══════════════════════════════════════════
+QUÉ CAMBIÉ Y POR QUÉ
+═══════════════════════════════════════════
+
+1. ENCABEZADO NUEVO
+   → Mismo encabezado que Telegram = marca consistente
+   → El lector reconoce "Tu Periódico IA" en ambos canales
+
+2. QUITÉ "Y no es quien tú crees"
+   → Sí es Musk. Decir que "no es quien crees" es mentir.
+   → Isra Bravo dice: nunca engañes al lector, solo genera curiosidad.
+   → La curiosidad ya está con la cifra y las preguntas.
+
+3. QUITÉ "un prompt que vale $5,000"
+   → Suena a publicidad de gurú. No es tu voz.
+   → "La edición completa tiene la respuesta" es más limpio.
+
+4. CIFRA EN NEGRITA
+   → *$250,000,000,000* en negrita le da peso visual en WhatsApp.
+   → El ojo va directo ahí.
+
+5. "140 países" AGREGADO
+   → Le da contexto a la cifra. Sin eso, $250B es un número abstracto.
+   → "Más que 140 países" lo hace real y visceral.
+
+6. CHECKS EN UNA LÍNEA
+   → "✅ Gratis · ✅ Sin spam · ✅ Un prompt útil cada día"
+   → Ocupa menos espacio, se ve más limpio, menos scroll.
+
+7. FRASE DE MIGRACIÓN MÁS DIRECTA
+   → "Telegram recibe todo. WhatsApp solo el resumen."
+   → Invertí el orden: primero lo que GANAS (todo), después lo que PIERDES (solo resumen).
+   → Psicología: la pérdida duele más que la ganancia.
