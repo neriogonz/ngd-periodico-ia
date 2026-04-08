@@ -3,66 +3,58 @@
 _La IA que importa. Sin humo._
 ═══════════════════════════
 📅 Miércoles 8 de abril, 2026
-✍️ Nerio González D' — _N° 1.03_
+✍️ Nerio González D' — _N° 1.04_
 ━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-El lunes pasé horas eligiendo una herramienta de transcripción para un proyecto.
+Un amigo me escribió esta semana: "¿Vale la pena invertir en una startup de IA ahora o ya es muy tarde?"
 
-Comparé precios, benchmarks, integraciones.
+Le respondí con una pregunta: "¿Llegarías tarde a una fiesta donde el 87% del dinero del mundo acaba de entrar por la puerta?"
 
-Al final elegí una.
+Se quedó en silencio.
 
-Hoy me entero de que *Microsoft* lanzó *MAI-Transcribe-1* — un modelo propio que le gana a *Whisper* en los 25 idiomas del benchmark FLEURS.
+Porque esta semana salió el informe de *Crunchbase* para el primer trimestre de 2026.
 
-Disponible ahora mismo. Gratis si tienes acceso a *Microsoft Foundry*.
+Los números son difíciles de procesar: *$300 mil millones* en startups en un solo trimestre. Más del doble de todo lo invertido en 2025.
 
-Mira, no me molestó haber "elegido mal". Me molestó otra cosa.
+Y el *87%* de ese dinero fue a empresas de IA.
 
-*Microsoft* lanzó *tres modelos propios* esta semana: transcripción, voz e imagen. En un solo movimiento, dejó de depender de *OpenAI*.
+*OpenAI* levantó *$122 mil millones*. *Anthropic* otros *$30 mil millones* a una valoración de *$380 mil millones*. *xAI* sumó *$20 mil millones* más. Solo esas tres startups se llevaron el 65% del capital global del trimestre.
 
-Y lo hizo justo cuando los nuevos términos contractuales se lo permitieron.
+Eso no es una burbuja. Eso es una migración de capital sin precedente en la historia del venture capital.
 
-Hasta hace poco, *Microsoft* tenía prohibido construir modelos frontier de forma independiente. Financiaba a *OpenAI*, le compraba los modelos, y punto.
-
-Eso terminó.
-
-Ahora tiene sus propios modelos Y licencia sobre los de *OpenAI* hasta *2032*.
-
-Tiene lo mejor de los dos mundos.
-
-*Mi opinión:* _Esto no es una herramienta nueva. Es una declaración de independencia. Microsoft pasó de ser el banco de OpenAI a ser su competidor directo — con la ventaja de conocerlo por dentro. Los próximos 12 meses van a redefinir quién controla la infraestructura de IA empresarial._
+*Mi opinión:* _Cuando el 87% de la inversión global va a un sector, hay dos tipos de personas: las que están dentro y las que van a entender por qué deberían haber estado. No es demasiado tarde — pero la ventana de los precios bajos se está cerrando rápido._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
 ⚡ *Otras cosas que deberías saber hoy:*
 
-💰 *Broadcom + Anthropic* — Broadcom firmó un acuerdo que da a *Anthropic* acceso a *3.5 gigavatios* de cómputo. El sector habla de inversiones de hasta *$7 billones* en infraestructura. _La carrera de la IA ya no es de software — es de hardware y energía._
+💻 *Anthropic + Google + Broadcom* — *Anthropic* confirmó un acuerdo de cómputo con *Google* y *Broadcom* que le da acceso a *3.5 gigavatios* de capacidad de procesamiento para 2027. Su run rate de ingresos ya alcanzó *$30 mil millones* anuales. _La IA ya no se mide en modelos — se mide en gigavatios._
 
-🔬 *TurboQuant (Google)* — Algoritmo presentado en ICLR 2026 reduce el consumo energético de la IA hasta *100 veces* sin perder precisión. _El argumento de "la IA destruye el medioambiente" empieza a quebrarse._
+🤖 *Eclipse Ventures* — La firma de capital de riesgo cerró un fondo de *$1.3 mil millones* específicamente para startups de "IA física": robótica, manufactura, defensa e infraestructura de cómputo. _El dinero ya no solo va al software — el capital inteligente apuesta por el mundo físico._
 
-📊 *El dato que duele* — Trabajadores con IA ahorran entre *40 y 60 minutos al día*. Solo el *22%* de las empresas la usa activamente. _El 78% restante está regalando una hora diaria. Todos los días._
+📊 *El dato que lo explica todo* — En Q1 2026, las startups de IA fundacional recibieron el *doble* de todo lo que recibieron en todo 2025. *OpenAI*, *Anthropic*, *xAI* y *Waymo* juntos levantaron *$188 mil millones* en 90 días. _Cuatro empresas. Noventa días. La mayor concentración de capital de la historia._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
 🧰 *Prompt que puedes robar:*
 
-`Actúa como consultor de estrategia de IA. Analiza mi situación: [describe tu negocio o rol]. ¿Qué activos tengo ya (datos, usuarios, canales, procesos) que podría convertir en ventaja competitiva usando IA en los próximos 90 días? Dame 3 movimientos concretos, ordenados por impacto. Sin teoría, solo acciones.`
+`Soy [tu perfil o negocio]. Quiero entender cómo el boom de inversión en IA de 2026 afecta mi sector específico. Analiza: 1) Qué startups de IA están recibiendo capital en mi industria, 2) Qué capacidades van a estar disponibles en los próximos 12-18 meses que hoy no existen, 3) Qué debo preparar ahora para aprovechar esa ola. Dame un análisis concreto con ejemplos reales.`
 
-_Funciona porque te fuerza a pensar en lo que ya tienes, no en lo que necesitarías comprar._
-
-━━━━━━━━━━━━━━━━━━━━━
-
-📖 *Palabra del día:* *Microsoft Foundry* — _La plataforma donde Microsoft aloja sus modelos propios de IA. Como Azure, pero para los modelos que construyeron ellos mismos._
+_Funciona porque te posiciona como el que piensa en el futuro de tu industria, no en el presente._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-✒️ _"El que controla la infraestructura, controla el mercado."_
+📖 *Palabra del día:* *Run Rate* — _El ingreso anual de una empresa calculado a partir de su ritmo actual de ventas. Si una empresa gana $7.5 mil millones en un trimestre, su run rate es $30 mil millones al año. Así miden el crecimiento las startups antes de reportar cifras anuales._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-🔁 Reenvíale esto a alguien que todavía cree que en IA solo hay dos jugadores. Vas a quedar como el que sabe lo que viene antes que los demás. Eso tiene valor real.
+✒️ _"El capital no miente. Y el capital acaba de apostar $300 mil millones en un trimestre."_
+
+━━━━━━━━━━━━━━━━━━━━━
+
+🔁 Reenvíale esto a alguien que todavía cree que la IA es moda. Cuando quieran entrar, tú ya llevas meses sabiendo lo que pasa. Eso tiene valor real.
 
 ━━━━━━━━━━━━━━━━━━━━━
 
