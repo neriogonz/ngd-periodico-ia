@@ -8,85 +8,55 @@ _La IA que importa. Sin humo._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-Esta semana *Oracle* anunció que va a recortar entre 20,000 y 30,000 empleados.
+Llevo semanas construyendo agentes de IA para mis proyectos.
 
-Motivo oficial: redirigir $8 mil millones hacia infraestructura de IA.
+Y la parte más frustrante nunca fue la lógica. Fue todo lo demás.
 
-Se lo mencioné a alguien y me respondió: "Eso no es nuevo, las empresas siempre recortan."
+Que el sandbox no funciona. Que los permisos se rompen. Que el agente corre 40 minutos y se cae sin avisar. Que el estado se pierde y toca empezar de cero.
 
-Le dije: "No. El CEO de *Block* lo dijo con nombre y apellido: 'Estos puestos ya los hace la IA.'"
+Ayer estaba a punto de armar otro parche más cuando vi el anuncio.
 
-Hubo un silencio incómodo.
+*Anthropic* acaba de lanzar *Claude Managed Agents* en beta pública. Y básicamente resolvieron todo lo que me tenía peleando con infraestructura en vez de construir cosas útiles.
 
-Eso es nuevo. Ya no es eufemismo. Ya no es "reestructuración estratégica". Es el nombre real de lo que está pasando.
+Es una suite de APIs que te da todo el backend para correr agentes en la nube. Sandboxing, ejecución de comandos, manejo de estado, permisos — resuelto. Tú escribes la lógica. Ellos se encargan de que corra sin caerse.
 
-Esta fue la semana en que todo se volvió más claro.
+Lo que me voló la cabeza: los agentes pueden correr *por horas* de forma autónoma. Si se cae la conexión, el progreso se guarda. Y si necesitas que varios agentes trabajen juntos, hay un sistema de *Agent Teams* donde múltiples instancias de Claude se coordinan solas.
 
-━━━━━━━━━━━━━━━━━━━━━
+*Notion*, *Rakuten*, *Asana* y *Sentry* ya lo están usando. *Anthropic* reporta mejoras de *10x* en tiempo de desarrollo.
 
-🗞 *Tu Periódico IA* — _Edición Especial Semanal N° 1.06_
+El precio: *$0.08 por hora de sesión* activa, más el costo normal de tokens. Sin suscripción fija.
 
-*Los 5 momentos de IA que marcaron esta semana:*
-
-━━━━━━━━━━━━━━━━━━━━━
-
-🥇 *1. Meta rompe con el open-source y lanza Muse Spark*
-
-*Meta* presentó su primer modelo propietario desde *Meta Superintelligence Labs*, liderado por *Alexandr Wang* (ex CEO de *Scale AI*, deal de *$14.3 mil millones*). Multimodal, razonamiento paralelo multi-agente, compite de frente con *GPT-5.4* y *Gemini Deep Think*. Llega a *WhatsApp*, *Instagram* y lentes de IA en las próximas semanas.
-
-*Mi opinión:* _La empresa que presumía de open-source acaba de cerrar la puerta del código. Cuando el dinero habla, la filosofía se calla._
+*Mi opinión:* _Anthropic hizo lo que AWS hizo con los servidores hace 20 años. En vez de decirte "aquí tienes el modelo, arréglate", te dice "yo corro tu agente, tú dime qué tiene que hacer." El que no tenga agentes en producción en 2026, ya no tiene excusa._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-🥈 *2. Oracle + Block: 34,000 puestos reemplazados por IA*
+⚡ *Otras cosas que deberías saber hoy:*
 
-*Oracle* elimina entre *20,000 y 30,000* empleados para mover *$8-10 mil millones* a infraestructura IA. *Block* suma *4,000* más. *Jack Dorsey* sin anestesia: "Estos puestos ya los hace la IA."
+🛠 *Agent Teams vs Subagentes* — Managed Agents tiene dos modos: *Agent Teams* (varios Claude trabajando en paralelo con comunicación directa) y *Subagentes* (más baratos, secuenciales, reportan al agente principal). _Elige según tu caso: paralelismo cuesta más tokens, pero resuelve problemas complejos que un solo agente no puede._
 
-*Mi opinión:* _Esto no es una predicción. Es un comunicado de prensa con fecha de esta semana._
+🔌 *MCP Servers integrados* — Los agentes se conectan a servicios externos vía *MCP* (Model Context Protocol). Bash, archivos, búsqueda web, y cualquier herramienta que expongas. _Cada agente se convierte en un trabajador con acceso real a tus sistemas, no un chatbot aislado._
 
-━━━━━━━━━━━━━━━━━━━━━
-
-🥉 *3. OpenAI supera $25B en ingresos — y GPT-5.4 ya vence a humanos*
-
-*OpenAI* supera *$25,000 millones* en ingresos anualizados y avanza hacia una IPO. Su modelo *GPT-5.4* obtuvo *75%* en el benchmark OSWorld-V. Los humanos tienen *72.4%*. La IA ya supera a personas en tareas digitales complejas.
-
-*Mi opinión:* _Un producto que no existía hace 3 años factura más que buena parte de las Fortune 500. El mercado no espera a nadie._
-
-━━━━━━━━━━━━━━━━━━━━━
-
-4️⃣ *4. Microsoft invierte $10B en Japón — la mayor apuesta occidental en Asia*
-
-*Microsoft* compromete *$10 mil millones* en infraestructura IA, ciberseguridad y talento en Japón. La mayor inversión de este tipo por una empresa occidental en toda Asia.
-
-*Mi opinión:* _Mientras algunos debaten si la IA "llegó", otros ya firmaron el cheque más grande de la historia regional._
-
-━━━━━━━━━━━━━━━━━━━━━
-
-5️⃣ *5. El protocolo MCP cruza 97M de instalaciones y pasa a gobernanza abierta*
-
-*MCP* (Model Context Protocol) de *Anthropic* superó *97 millones* de instalaciones en marzo 2026. La *Linux Foundation* lo tomó bajo gobernanza abierta. Se convierte en el estándar de comunicación entre agentes IA.
-
-*Mi opinión:* _MCP es el nuevo "USB" de los agentes. Si construyes automatizaciones, esto ya es infraestructura base._
+💰 *Búsqueda web: $10 por 1,000 búsquedas* — Si tu agente necesita buscar en internet, *Anthropic* cobra *$10 por cada 1,000 búsquedas*. Suena caro hasta que calculas lo que pagas por un humano haciendo lo mismo.
 
 ━━━━━━━━━━━━━━━━━━━━━
 
 🧰 *Prompt que puedes robar:*
 
-`Actúa como un consultor de productividad. Mi puesto de trabajo es: [describe tu rol]. Analiza paso a paso: 1) ¿Qué tareas de este rol puede automatizar la IA hoy? 2) ¿Qué habilidades lo hacen difícil de reemplazar? 3) ¿Qué debería aprender esta persona en los próximos 6 meses para ser irreemplazable? Sin respuestas genéricas.`
+`Diseña un agente de IA para mi negocio de [tu sector]. El agente debe: 1) Recibir solicitudes de clientes por [canal], 2) Consultar nuestra base de datos para dar respuestas precisas, 3) Escalar a un humano solo cuando no pueda resolver. Dame la arquitectura, las herramientas que necesita, y los permisos mínimos que debería tener. Prioriza seguridad.`
 
-_El análisis que Oracle ya hizo sobre tu puesto. Hazlo tú primero._
-
-━━━━━━━━━━━━━━━━━━━━━
-
-📖 *Palabra del día:* *Workforce displacement* — _El término técnico para cuando la IA toma el trabajo que hacía una persona. Esta semana dejó de ser concepto académico y se convirtió en comunicado de prensa._
+_Funciona porque te obliga a pensar en el agente como un empleado: qué puede hacer, qué NO puede hacer, y cuándo pide ayuda._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-✒️ _"El futuro no avisa. Solo llega y te pregunta si estabas listo."_
+📖 *Palabra del día:* *Managed Agent* — _Un agente de IA que corre en infraestructura del proveedor. Tú defines qué hace; ellos se encargan de que corra, no se caiga, y mantenga su estado. Como pasar de tener tu propio servidor en el closet a usar la nube._
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-🔁 Reenvíale esto a alguien que todavía cree que "la IA no le va a afectar." No le estás haciendo un favor político. Le estás ahorrando una sorpresa muy cara.
+✒️ _"El futuro no es tener el mejor modelo. Es tener el mejor agente corriendo mientras tú duermes."_
+
+━━━━━━━━━━━━━━━━━━━━━
+
+🔁 Reenvíale esto a alguien que lleva meses armando infraestructura para agentes. Cuando lo resuelva en días, tú serás el que le dijo cómo. Eso vale más que cualquier curso.
 
 ━━━━━━━━━━━━━━━━━━━━━
 

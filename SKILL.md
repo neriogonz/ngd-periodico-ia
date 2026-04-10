@@ -92,32 +92,16 @@ Los viernes el formato cambia ligeramente:
 
 ## Método de escritura: Isra Bravo
 
-Reglas INNEGOCIABLES:
+La metodología completa está en `metodo_isra_bravo.md`. SIEMPRE leer ese archivo antes de escribir. Aquí van las reglas mínimas de referencia rápida:
 
-### Regla 1: Abrir SIEMPRE con una historia
-Nunca abrir con "Hoy en IA pasó..." o bullets. SIEMPRE abrir con:
-- Algo que le pasó a Nerio (real o basado en su contexto)
-- Una observación cotidiana conectada con IA
-- Una conversación que tuvo
-- Algo que vio en internet/redes/calle
-- Un error que cometió
-- Una pregunta que alguien le hizo
-
-### Regla 2: Frases cortas, párrafos de 1-2 líneas
-Nunca bloques de 4+ líneas. Cada idea = un párrafo. Ritmo rápido.
-
-### Regla 3: Tono conversacional y directo
-Como hablarle a un amigo. Sin formalidades.
-- NO: "cabe destacar", "es importante mencionar", "en este sentido"
-- SÍ: "la verdad es que", "el punto es este", "hermano", "mira"
-
-### Regla 4: Opiniones polarizantes
-- NO: "esto es interesante" o "hay que estar atentos"
-- SÍ: "despierta", "el mercado ya decidió por ti", "basura entra, basura sale"
-
-### Regla 5: El cierre da un beneficio egoísta
-- NO: "comparte si te gusta"
-- SÍ: "Reenvíale esto. Tú serás su fuente. Y eso te posiciona."
+1. **Abrir SIEMPRE con historia.** Nunca con noticias, bullets ni resumen. (Ver tipos de apertura en metodo_isra_bravo.md)
+2. **Estructura SLO:** Story (historia) → Lesson (lección) → Offer (la noticia/CTA).
+3. **Frases cortas, párrafos de 1-2 líneas.** Nunca bloques de 4+ líneas.
+4. **Tono conversacional.** Como hablarle a un amigo. CERO lenguaje corporativo.
+5. **Opiniones polarizantes.** NO: "esto es interesante". SÍ: "despierta", "el mercado ya decidió por ti".
+6. **Cierre con beneficio egoísta.** NO: "comparte si te gusta". SÍ: "Reenvíale esto. Tú serás su fuente."
+7. **Crear imágenes mentales.** "La gente no actúa por lo que escucha sino por lo que visualiza."
+8. **NUNCA aburrir.** Si una sección aburre, reescribirla o eliminarla.
 
 ## Formato TELEGRAM (periódico completo)
 
@@ -194,9 +178,9 @@ _[1 línea de por qué funciona]_
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-📲 *Canal:* [Tu Periódico IA](https://t.me/TU_CANAL)
+📲 *Canal:* [Tu Periódico IA](https://t.me/TUPERIODICOIA)
 📸 *Instagram:* [@neriogonzalezd](https://www.instagram.com/neriogonzalezd/)
-🌐 *Web:* [neriogonzalez.com](https://neriogonzalez.com)
+🌐 *Web:* [neriogonzalezd.com](https://neriogonzalezd.com)
 
 🚀 _"Tu vida y tu negocio, al siguiente nivel."_
 
@@ -230,7 +214,7 @@ _La IA que importa. Sin humo._
 WhatsApp solo recibe el resumen.
 
 👉 *Únete al canal:*
-https://t.me/TU_CANAL
+https://t.me/TUPERIODICOIA
 
 ✅ Gratis
 ✅ Sin spam
@@ -239,6 +223,7 @@ https://t.me/TU_CANAL
 ━━━━━━━━━━━━━━━━━━
 
 📸 Instagram: https://www.instagram.com/neriogonzalezd/
+🌐 Web: neriogonzalezd.com
 
 🚀 _"Tu vida y tu negocio, al siguiente nivel."_
 
@@ -319,7 +304,7 @@ Lo que me devolvió sonaba como un robot con resaca.
 Se lo mostré a mi novia y casi se cae de la silla de la risa."
 
 TIPO "Vi algo":
-"Abrí Twitter esta mañana y lo primero que vi fue un video
+"Abrí X esta mañana y lo primero que vi fue un video
 de un robot sirviendo café en una cafetería.
 Se movía con más gracia que la mitad de los camareros que conozco."
 
@@ -344,7 +329,7 @@ Yo pensé: si supiera que hay una IA que puede hacer eso y mucho más..."
 - Nunca sonar genérico o corporativo.
 - Nunca usar "insight" (usar "mi opinión" o "el punto es").
 - Nunca abrir con bullets o resumen.
-- Nunca superar 400 palabras (Telegram) o 150 (WhatsApp).
+- Nunca superar 4096 caracteres (Telegram) o 150 palabras (WhatsApp). El límite de Telegram es técnico — si se excede, el bot divide el mensaje en partes y se ve mal. Apuntar a máximo 3900 caracteres para tener margen.
 - Nunca cerrar con "comparte si te gusta".
 - Nunca emojis dentro del cuerpo de la historia.
 - Nunca dar la noticia completa en el teaser de WhatsApp.
