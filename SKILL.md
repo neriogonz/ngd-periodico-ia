@@ -128,6 +128,8 @@ REGLAS DE FORMATO:
 - Links clickeables: [texto](url)
 - Separadores: ━━━━━━━━━━━━━━━━━━━━━
 
+NOTA SOBRE LONGITUD: Con las secciones nuevas (herramientas + Claude tip), el periódico puede superar los 4096 chars de Telegram. El script send_to_telegram.py divide automáticamente en partes de max 4000 chars. Esto es aceptable — apuntar a max 5500 chars totales para que se divida en máximo 2 mensajes limpios.
+
 PLANTILLA:
 
 ═══════════════════════════
@@ -136,39 +138,52 @@ _La IA que importa. Sin humo._
 ═══════════════════════════
 📅 [Día] [día] de [mes], [año]
 ✍️ Nerio González D' — _N° [AÑO].[EDICIÓN]_
-━━━━━━━━━━━━━━━━━━━━━━━
 
-━━━━━━━━━━━━━━━━━━━━━
-
-[HISTORIA PERSONAL - 4-6 párrafos cortos de 1-2 líneas cada uno]
-
-[CONEXIÓN CON LA NOTICIA - nombres en *negrita*, cifras en *negrita*]
+[HISTORIA PERSONAL - 4-6 párrafos cortos, método Isra Bravo]
+[Historia REALISTA y CREÍBLE basada en el contexto de Nerio]
+[Conectar con la noticia principal del día]
 
 *Mi opinión:* _[2-3 líneas opinión fuerte en cursiva]_
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-⚡ *Otras cosas que deberías saber hoy:*
+⚡ *Las 5 de hoy*
 
-🛠 *[Herramienta/Modelo]* — [Qué pasó. _Implicación en cursiva._]
+1️⃣ *[Titular noticia]* — [2-3 líneas. Datos clave en *negrita*. _Implicación en cursiva._]
 
-⚖️ *[Regulación/Ética]* — [Qué pasó. _Implicación en cursiva._]
+2️⃣ *[Titular noticia]* — [2-3 líneas. _Implicación en cursiva._]
 
-💰 *[Dato/Cifra]* — [Contexto. _Reflexión en cursiva._]
+3️⃣ *[Titular noticia]* — [2-3 líneas. _Implicación en cursiva._]
+
+4️⃣ *[Titular noticia]* — [2-3 líneas. _Implicación en cursiva._]
+
+5️⃣ *[Titular noticia]* — [2-3 líneas. _Implicación en cursiva._]
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-🧰 *Prompt que puedes robar:*
+🔧 *3 herramientas IA nuevas*
 
-`[prompt completo en monoespaciado, listo para copiar]`
+▸ *[Nombre]* — [Qué hace en 1 línea. Link si hay.]
+▸ *[Nombre]* — [Qué hace en 1 línea. Link si hay.]
+▸ *[Nombre]* — [Qué hace en 1 línea. Link si hay.]
+
+━━━━━━━━━━━━━━━━━━━━━
+
+🤖 *Tu minuto con Claude*
+
+[Algo breve y práctico que el lector pueda hacer HOY con Claude o Claude Code. Un mini-ejemplo concreto que quite el miedo a la IA. Máximo 4-5 líneas. Incluir ejemplo copiable si aplica.]
+
+━━━━━━━━━━━━━━━━━━━━━
+
+🧰 *Prompt del día*
+
+▸ `[prompt completo en monoespaciado, listo para copiar]`
 
 _[1 línea de por qué funciona]_
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-📖 *Palabra del día:* *[Término]* — _[Definición conectada con noticia]_
-
-━━━━━━━━━━━━━━━━━━━━━
+📖 *Palabra:* *[Término]* — _[Definición conectada con noticia]_
 
 ✒️ _"[Frase del día]"_
 
@@ -176,11 +191,7 @@ _[1 línea de por qué funciona]_
 
 🔁 [CTA DE CIERRE - beneficio egoísta, 2-3 líneas, sin emojis]
 
-━━━━━━━━━━━━━━━━━━━━━
-
-📲 *Canal:* [Tu Periódico IA](https://t.me/TUPERIODICOIA)
-📸 *Instagram:* [@neriogonzalezd](https://www.instagram.com/neriogonzalezd/)
-🌐 *Web:* [neriogonzalezd.com](https://neriogonzalezd.com)
+📲 [Canal](https://t.me/TUPERIODICOIA) · 📸 [Instagram](https://www.instagram.com/neriogonzalezd/) · 🌐 [Web](https://neriogonzalezd.com)
 
 🚀 _"Tu vida y tu negocio, al siguiente nivel."_
 
@@ -329,7 +340,7 @@ Yo pensé: si supiera que hay una IA que puede hacer eso y mucho más..."
 - Nunca sonar genérico o corporativo.
 - Nunca usar "insight" (usar "mi opinión" o "el punto es").
 - Nunca abrir con bullets o resumen.
-- Nunca superar 4096 caracteres (Telegram) o 150 palabras (WhatsApp). El límite de Telegram es técnico — si se excede, el bot divide el mensaje en partes y se ve mal. Apuntar a máximo 3900 caracteres para tener margen.
+- Apuntar a max 5500 caracteres en Telegram (el script divide en 2 mensajes si excede 4000). WhatsApp: max 150 palabras.
 - Nunca cerrar con "comparte si te gusta".
 - Nunca emojis dentro del cuerpo de la historia.
 - Nunca dar la noticia completa en el teaser de WhatsApp.
